@@ -1,0 +1,39 @@
+#screen{
+    position: absolute;
+    background-color:#aaaaaa;
+    top:0;
+    left:0;
+    margin:0px;
+    padding:0px;
+    border:1px solid #000000;
+    z-index:0;
+}
+#player{
+    position:absolute;
+    background-color:#00ffff;
+    margin:0px;
+    padding:0px;
+    z-index:2
+}
+#message{
+    position:relative;
+    text-align:center;
+    background-color:#555555;
+    border:1px solid #000000;
+    display:none;
+    z-index:3;
+}
+.box{
+    position:absolute;
+    background-color:#000000;
+    z-index:1;
+}
+.side{
+    border:1px solid #000000;
+}
+.bar {
+    text-align:center;
+    background-color:#000000;
+    color:#ffffff;
+    font-weight:bold;
+}
